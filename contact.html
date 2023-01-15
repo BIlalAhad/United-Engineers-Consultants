@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <script src="./script.js" defer></script>
+  <title>Contact - UEC</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="px-4 sm:mt-4 relative z-10">
+      <div class="container mx-auto flex items-center justify-between">
+        <!-- hamburger menu -->
+        <img class="hamburger-menu w-8 sm:hidden absolute top-6 left-6 cursor-pointer"
+          src="./images/icons/icon-hamburger.svg" alt="">
+        <!-- logo -->
+        <a href="/">
+          <h1 class="w-fit absolute sm:static top-6 left-0 right-0 mx-auto sm:mx-0 text-3xl font-bold text-orange-800">UEC</h1>
+        </a>
+        <!-- <img class="w-24 absolute sm:static top-0 left-0 right-0 mx-auto sm:mx-0" src="./images/logo-transparent.png"
+            alt=""> -->
+        <!-- nav links -->
+        <nav class="main-nav hidden sm:block w-full sm:w-auto sm:mt-0 mx-4">
+          <ul
+            class="flex items-center gap-4 sm:gap-8 md:gap-16 flex-col sm:flex-row w-4/5 mx-auto sm:w-auto px-4 bg-orange-800 text-white   font-bold rounded-md py-4 absolute sm:static top-20 left-0 right-0">
+            <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./index.html">Home</a></li>
+            <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./about.html">About</a></li>
+            <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./portfolio.html">Portfolio</a></li>
+            <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- phone number -->
+        <a class="absolute sm:static top-6 right-6" href="tel:+921234567890"><img class='w-8'
+            src="./images/icons/icon-phone.svg" alt=""></a>
+      </div>
+    </header>
+  
+  <main>
+    <section id="contact-us" class="mt-32 my-10 sm:my-20">
+      <div class="container mx-auto px-4">
+        <div class="max-w-3xl mx-auto shadow-lg rounded-md border p-6">
+          <h3 class="text-4xl font-bold text-center uppercase">C<span class="text-orange-800">o</span>n<span
+              class="text-orange-800">t</span>a<span class="text-orange-800">c</span>t U<span
+              class="text-orange-800">s</span></h3>
+          <p class="text-center font-bold mt-4 text-xl">Let's get connected!</p>
+          <!-- contact form -->
+          <form class="mt-8 space-y-8">
+            <div class="flex flex-col sm:flex-row gap-8 sm:gap-5">
+              <!-- name -->
+              <div class="sm:w-1/2">
+                <label class="block" for="name">Name</label>
+                <input class="border w-full px-4 py-2" type="text" name="name" id="name">
+              </div>
+
+              <!-- email -->
+              <div class="sm:w-1/2">
+                <label class="block" for="email">Email</label>
+                <input class="border w-full px-4 py-2" type="email" name="email" id="email">
+              </div>
+            </div>
+
+            <!-- phone number -->
+            <div class="sm:w-1/2 sm:pr-2.5">
+              <label class="block" for="phone">Phone Number</label>
+              <input class="border w-full px-4 py-2" type="text" name="phone" id="phone">
+            </div>
+
+            <!-- address -->
+            <div>
+              <label class="block" for="address">Address</label>
+              <input class="border w-full px-4 py-2" type="text" name="address" id="address">
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-8 sm:gap-5">
+              <!-- zip code -->
+              <div class="sm:w-1/2">
+                <label class="block" for="zipcode">Zip Code</label>
+                <input class="border w-full px-4 py-2" type="text" name="zipcode" id="zipcode">
+              </div>
+
+              <!-- city -->
+              <div class="sm:w-1/2">
+                <label class="block" for="city">City</label>
+                <input class="border w-full px-4 py-2" type="text" name="city" id="city">
+              </div>
+            </div>
+
+            <!-- country -->
+            <div class="sm:w-1/2 sm:pr-2.5">
+              <label class="block" for="country">Country</label>
+              <input class="border w-full px-4 py-2" type="text" name="country" id="country">
+            </div>
+
+            <!-- message -->
+            <div>
+              <label class="block" for="message">Message</label>
+              <textarea class="border w-full px-4 py-2" type="text" name="message" rows="5" id="message"></textarea>
+            </div>
+
+            <div class="text-center font-bold">
+              <button class="text-white bg-orange-800 py-3 px-8 mt-4 hover:bg-orange-500 rounded-full">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  
+
+  
+ <!-- footer -->
+<section class="bg-gray-700   ">
+  <p class="bg-black h-0.5"></p>
+  <div class="  sm:grid grid-flow-col grid-cols-3  items-center p-8 px-12 py-20 sm:py-24 ">
+    <div class="relative">
+      <h1 class="font-bold uecfont text-2xl text-center  text-white">United Engineer's Consultants</h1>
+      <p class="tracking-widest text-center text-xl text-orange-400 mt-1">best Practice of designing</p>
+    </div>
+
+   
+
+    <div class=" text-center">
+      <ul class="text-white space-y-5   ">
+        <li><span class=" text-orange-400 font-bold">Call</span><br> +92-342-961-7934</li>
+        <li><span class="text-orange-400 font-bold">Email</span><br> uec@gmail.com</li>
+        <li><span class="text-orange-400 font-bold">Address</span><br> City Center Phase III Near Neshat Store Qambar Swat</li>
+      
+      </ul>
+    </div>
+
+    <div class=" flex flex-row mt-5 sm:mt-0 sm:flex sm:flex-col mx-auto gap-6 justify-center">
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2 " src="./images/facebook.png" alt=""></a>
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2 " src="./images/linkedin.png" alt=""></a>
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2" src="./images/twiter.png" alt=""></a>
+    </div>
+  </div>
+
+  <div>
+    <ul class="flex mx-auto gap-6 pb-5 justify-around "> 
+    <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./index.html">Home</a></li>
+    <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./about.html">About</a></li>
+    <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./portfolio.html">Portfolio</a></li>
+    <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="text-center bg-black text-gray-500 p-2 text-sm">
+    <p><i>2020 UEC . All Rights Reserved</i></p>
+    <p><i>Developed By</i> <span class="text-orange-400">Bilal Ahad</span></p>
+  </div>
+</section>
+</body>
+
+</html>

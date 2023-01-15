@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+        <link rel="stylesheet" href="script.js">
+        <link rel="stylesheet" href="./output.css">
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js" defer></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"
+          defer></script>
+        <script src="./script.js" defer></script>
+      </head>
+<body>
+
+      <!-- header -->
+  <header class="px-4 sm:mt-4 relative z-10">
+    <div class="container mx-auto flex items-center justify-between">
+      <!-- hamburger menu -->
+      <img class="hamburger-menu w-8 sm:hidden absolute top-6 left-6 cursor-pointer"
+        src="./images/icons/icon-hamburger.svg" alt="">
+      <!-- logo -->
+      <a href="/">
+        <h1 class="w-fit absolute sm:static top-6 left-0 right-0 mx-auto sm:mx-0 text-3xl font-bold text-orange-800">UEC</h1>
+      </a>
+      <!-- <img class="w-24 absolute sm:static top-0 left-0 right-0 mx-auto sm:mx-0" src="./images/logo-transparent.png"
+          alt=""> -->
+      <!-- nav links -->
+      <nav class="main-nav hidden sm:block w-full sm:w-auto sm:mt-0 mx-4">
+        <ul
+          class="flex items-center gap-4 sm:gap-8 md:gap-16 flex-col sm:flex-row w-4/5 mx-auto sm:w-auto px-4 bg-orange-800 text-white   font-bold rounded-md py-4 absolute sm:static top-20 left-0 right-0">
+          <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./index.html">Home</a></li>
+          <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./about.html">About</a></li>
+          <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="hover:text-black hover:border-b-2 hover:border-black"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- phone number -->
+      <a class="absolute sm:static top-6 right-6" href="tel:+921234567890"><img class='w-8'
+          src="./images/icons/icon-phone.svg" alt=""></a>
+    </div>
+  </header>
+
+
+
+
+  <main>
+
+
+        <h1 class=" text-4xl text-black mt-24 sm:mt-10 font-bold  text-center  animate-pulse ">
+          INTERIOR
+        </h1>
+        <p class=" text-orange-500 text-center tracking-[0.75em]">portfolio</p>
+    
+
+        <section class="mt-12 grid grid-flow-row grid-rows-1 gap-2 bg-gray-100 py-10">
+          <div class="grid grid-flow-row grid-rows-1 sm:grid sm:grid-flow-cols sm:grid-cols-3 gap-2 mx-12 ">
+              <div class="">
+               <div class="relative">
+                 <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (20).jpg" alt="" onclick="interior()">
+                 <div class="">
+                  <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i">
+                    <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+                  </ul>
+                </div>
+               </div>
+              </div>
+              <div class="">
+                <div class="relative">
+                  <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (21).jpg" alt="" onclick="interior1()">
+                  <div class="">
+                  <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i1">
+                    <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+              <div class="">
+                <div class="relative">
+                  <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (22).jpg" alt="" onclick="interior2()">
+                <div class="">
+                  <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i2">
+                    <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+          </div>
+          <div class="grid grid-flow-row grid-rows-1 sm:grid sm:grid-flow-cols sm:grid-cols-3 gap-2 mx-12 ">
+              <div class="relative">
+                <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (23).jpg" alt="" onclick="interior3()"">
+                <div class="">
+                  <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i3">
+                    <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="relative">
+                <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (2).png" alt="" onclick="interior4()">
+                <div class="">
+                  <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i4">
+                    <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                    <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+                  </ul>
+                </div>
+              </div>
+            <div class="relative">
+              <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (2).png" alt="" onclick="interior5()">
+              <div class="">
+                <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i5">
+                  <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+    
+          <div class="grid grid-flow-row grid-rows-1 sm:grid sm:grid-flow-cols sm:grid-cols-3 gap-2 mx-12 ">
+            <div class="relative">
+              <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (23).jpg" alt="" onclick="interior6()">
+              <div class="">
+                <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i6">
+                  <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+                </ul>
+              </div>
+            </div>
+    
+            <div class="relative">
+              <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (2).png" alt="" onclick="interior7()">
+              <div class="">
+                <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i7">
+                  <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                  <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+                </ul>
+              </div>
+            </div>
+          <div class="relative">
+            <img class="rounded-md shadow-lg w-full hover:brightness-75" src="./images/portfolio/architectural-design/Untitled design (2).png" alt="" onclick="interior8()">
+            <div class="">
+              <ul class="absolute -mt-52 w-full font-serif p-5 bg-slate-200 hidden" id="i8">
+                <li><span class="text-orange-400 text-lg font-bold">Client:</span> dolor sit amet.</li>
+                <li><span class="text-orange-400 text-lg font-bold">Location:</span> dolor sit amet.</li>
+                <li><span class="text-orange-400 text-lg font-bold">Scrpe of work:</span> dolor sit amet.</li>
+                <li><span class="text-orange-400 text-lg font-bold">Schedule::</span> dolor sit amet.</li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      
+        
+         
+      </section>
+  </main>
+
+    
+
+
+
+ <!-- footer -->
+ <section class="bg-gray-700   ">
+  <p class="bg-black h-0.5"></p>
+  <div class="  sm:grid grid-flow-col grid-cols-3  items-center p-8 px-12 py-20 sm:py-24 ">
+    <div class="relative">
+      <h1 class="font-bold uecfont text-2xl text-center  text-white">United Engineer's Consultants</h1>
+      <p class="tracking-widest text-center text-xl text-orange-400 mt-1">best Practice of designing</p>
+    </div>
+
+   
+
+    <div class=" text-center">
+      <ul class="text-white space-y-5   ">
+        <li><span class=" text-orange-400 font-bold">Call</span><br> +92-342-961-7934</li>
+        <li><span class="text-orange-400 font-bold">Email</span><br> uec@gmail.com</li>
+        <li><span class="text-orange-400 font-bold">Address</span><br> City Center Phase III Near Neshat Store Qambar Swat</li>
+      
+      </ul>
+    </div>
+
+    <div class=" flex flex-row mt-5 sm:mt-0 sm:flex sm:flex-col mx-auto gap-6 justify-center">
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2 " src="./images/facebook.png" alt=""></a>
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2 " src="./images/linkedin.png" alt=""></a>
+     <a  href=""><img class="w-10 rounded-full hover:brightness-50 ring ring-orange-400 ring-offset-2" src="./images/twiter.png" alt=""></a>
+    </div>
+  </div>
+
+  <div>
+    <ul class="flex mx-auto gap-6 pb-5 justify-around "> 
+    <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./index.html">Home</a></li>
+    <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./about.html">About</a></li>
+    <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./portfolio.html">Portfolio</a></li>
+    <li class=" hover:border-b-2 hover:border-black hover:text-white"><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="text-center bg-black text-gray-500 p-2 text-sm">
+    <p><i>2020 UEC . All Rights Reserved</i></p>
+    <p><i>Developed By</i> <span class="text-orange-400">Bilal Ahad</span></p>
+  </div>
+</section>  
+  
+</body>
+</html>
